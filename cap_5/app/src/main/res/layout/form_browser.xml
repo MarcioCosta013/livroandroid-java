@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:text="Digite a URL e pressione o botão"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/campoEndereco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/botaoOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir o Navegador" />
+
+</LinearLayout>
