@@ -2,8 +2,8 @@
 <resources>
     <style name="estiloExemplo">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#ffffff</item>
-        <item name="background">#ff0000</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="background">@color/vermelho</item>
         <item name="android:textStyle">italic</item>
     </style>
 </resources>

@@ -9,8 +9,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Texto azul e branco"
-        android:background="#0000ff"
-        android:textColor="#ffffff"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"/>
 
     <!--Utilizando @string/ e @drawable/ -->
