@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LivroAndroidCap07-Recursos</string>
+    <string name="msg_verde_e_branco">Texto verde e branco - i18n</string>
+    <string name="msg_vermelho_e_branco">Texto vermelho e branco - i18n</string>
+    <string name="texto1">Texto campo 1 azul</string>
+</resources>
