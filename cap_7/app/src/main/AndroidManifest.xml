@@ -12,8 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LivroAndroidCap07Recursos"
         tools:targetApi="31">
+
         <activity
             android:name=".ExemploTextoCores"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExemploMenu"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

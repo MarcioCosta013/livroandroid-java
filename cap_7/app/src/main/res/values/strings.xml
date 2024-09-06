@@ -3,4 +3,8 @@
     <string name="msg_verde_e_branco">Texto verde e branco - i18n</string>
     <string name="msg_vermelho_e_branco">Texto vermelho e branco - i18n</string>
     <string name="texto1">Texto campo 1 azul</string>
+    <string name="title_activity_teste">teste</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
