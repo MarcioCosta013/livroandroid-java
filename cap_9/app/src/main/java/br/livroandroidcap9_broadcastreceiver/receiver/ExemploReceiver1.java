@@ -9,6 +9,6 @@ public class ExemploReceiver1 extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context c, Intent intent) {
-        Toast.makeText(c,"ExemploReceiver 1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(c,"ExemploReceiver1 1", Toast.LENGTH_SHORT).show();
     }
 }

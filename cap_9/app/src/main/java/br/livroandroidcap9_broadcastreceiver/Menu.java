@@ -24,7 +24,7 @@ public class Menu extends ListActivity {
         this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, nomes));
 
         //Registra um BroadcastReceiver pela API
-        registerReceiver(new ExemploReceiver2(), new IntentFilter("ABRIR_RECEIVER_2"));
+        registerReceiver(new ExemploReceiver2(), new IntentFilter("ABRIR_RECEIVER_2")); //registrando dinamicamente o "ExemploReceiver2" em onCreate.
     }
 
     @Override
@@ -36,7 +36,7 @@ public class Menu extends ListActivity {
                 break;
             case 1:
                 //Chama o BroadcatReceiver2
-                sendBroadcast(new Intent("ABRIR_receiver_2"));
+                sendBroadcast(new Intent("ABRIR_RECEIVER_2"));
                 break;
             case 2:
                 //Chama o ExemploReceiverANR
