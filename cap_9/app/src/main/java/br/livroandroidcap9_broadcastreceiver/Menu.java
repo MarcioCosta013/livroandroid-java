@@ -15,7 +15,8 @@ public class Menu extends ListActivity {
             "Exemplo 1",
             "Exemplo 2",
             "Exemplo 3 Erro ANR",
-            "Exemplo 4 - iniciar activity"
+            "Exemplo 4 - iniciar activity",
+            "Exemplo 5 - Integrar outra aplicação... ABRIR_APLICACAO_TESTE"
     };
 
     @Override
@@ -45,6 +46,9 @@ public class Menu extends ListActivity {
             case 3:
                 //Chama o BroadcastReceiver e abrir a activity TelaTeste
                 sendBroadcast(new Intent("ABRIR_TELA_TESTE"));
+                break;
+            case 4:
+                sendBroadcast(new Intent("ABRIR_APLICACAO_TESTE"));
                 break;
             default:
                 finish();
